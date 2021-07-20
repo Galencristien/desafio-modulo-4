@@ -1,0 +1,28 @@
+/* Footer */
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: #2c2c2c;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+.footer__title {
+  color: white;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 48px;
+  font-family: "orbitron", sans-serif;
+}
+.footer__img {
+  margin-top: 30px;
+  display: block;
+  height: 30px;
+  width: 100px;
+}

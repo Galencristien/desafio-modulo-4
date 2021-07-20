@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.welcome {
+  width: 100%;
+  height: 700px;
+  background-image: url(./img/header.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.welcome__title {
+  font-family: "montserrat", sans-serif;
+  height: 700;
+  font-size: 48px;
+  margin: 0;
+  margin-left: 10%;
+  text-align: start;
+  margin-top: 259px;
+}
+.welcome__subtitle {
+  font-family: "montserrat", sans-serif;
+  font-size: 32px;
+  margin: 0;
+  margin-left: 10%;
+  height: 700;
+  text-align: start;
+  margin-top: 5px;
+}
+
+/* Presentacion */
+.presentation__container {
+  background-color: #141414;
+  color: #fff;
+  height: 538px;
+  width: 100%;
+  padding: 32px;
+}
+@media (min-width: 960px) {
+  .presentation__container {
+    background-color: #fff;
+    color: black;
+  }
+}
+@media (min-width: 960px) {
+  .presentation {
+    display: flex;
+  }
+}
+.pesentation__img {
+  display: none;
+  height: 100%;
+}
+@media (min-width: 960px) {
+  .pesentation__img {
+    display: initial;
+  }
+}
+.presentation__title {
+  font-family: "montserrat", sans-serif;
+  margin: 55px 0;
+  text-align: center;
+  font-size: 32px;
+}
+@media (min-width: 960px) {
+  .presentation__title {
+    text-align: start;
+  }
+}
+.presentation-text {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+}
+
+/* Servicios */
+.services__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+@media (min-width: 960px) {
+  .services__card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+}
+.services__title {
+  font-family: "montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.services__card {
+  max-width: 300px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+}
+.services__card-img {
+  width: 138px;
+  height: 128px;
+  display: block;
+}
+.services__card-title {
+  margin: 0;
+  margin-top: 15px;
+  font-size: 24px;
+}
+.services__card-text {
+  margin: 0;
+  margin-top: 15px;
+  font-size: 16px;
+}

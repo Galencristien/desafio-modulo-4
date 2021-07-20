@@ -1,0 +1,81 @@
+/* Menu desplegable */
+.menu {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+@media (min-width: 960) {
+  .menu {
+    position: relative;
+    display: initial;
+  }
+}
+.menu__container {
+  font-family: "monserrat", sans-serif;
+  height: 667px;
+  background-color: #161616;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.menu__container a {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+.menu__close-container {
+  padding: 0 20px;
+  text-align: end;
+}
+.menu__close {
+  width: 37px;
+  height: 37px;
+}
+.menu__menu-link {
+  text-align: center;
+}
+.menu__porfolio-link {
+  text-align: center;
+}
+.menu__services-link {
+  text-align: center;
+}
+.menu__contact-link {
+  text-align: center;
+}
+/* Nav home */
+.header__nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.header__nav-name {
+  font-family: "orbitron", sans-serif;
+  margin: 0;
+  font-size: 30px;
+}
+.header__nav-link {
+  display: none;
+}
+@media (min-width: 960px) {
+  .header__nav-link {
+    display: initial;
+  }
+}
+.header__nav-link a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+}
+.header__nav-button {
+  font-size: 36px;
+}
+@media (min-width: 960px) {
+  .header__nav-button {
+    display: none;
+  }
+}
