@@ -35,7 +35,6 @@ function addForm(el) {
 
 function enviarForm() {
   const myForm = document.querySelector(".contac__form");
-  console.log(myForm);
   myForm.addEventListener("submit", function (e) {
     e.preventDefault();
     const formData = new FormData(e.target);
