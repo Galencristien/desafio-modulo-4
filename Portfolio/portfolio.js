@@ -27,7 +27,6 @@ function getPortfolio() {
           imagen: imgUrl,
         };
       });
-      console.log(fieldColleccion);
       return fieldColleccion;
     });
 }
